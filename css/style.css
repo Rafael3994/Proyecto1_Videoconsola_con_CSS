@@ -1,0 +1,70 @@
+body {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+#mando {
+    background-color: #d1d0d5 ;
+    width: 600px;
+    height: 270px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#base {
+    position: absolute;
+    background-color: #353434 ;
+    width: 89%;
+    height: 75%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 16%;
+    border: 1px solid black;
+}
+
+#botonB {
+    background-color: #d1d0d5 ;
+    width: 55px;
+    height: 55px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+#botonA {
+    background-color: #d1d0d5 ;
+    width: 55px;
+    height: 55px;
+    border: 1px solid black;
+    left: 75px;
+    position: absolute;
+}
+
+#botones {
+    position: relative;
+    top: 120px;
+    left: 360px;
+}
+
+.letra {
+    color: tomato;
+    font-weight: bold;
+    position:absolute;
+    top:60px;
+    left: 41px;
+}
+
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;    
+    width: 45px;
+    height: 45px;
+    border:1px solid black;
+    border-radius: 50%;
+    background: tomato;
+}
