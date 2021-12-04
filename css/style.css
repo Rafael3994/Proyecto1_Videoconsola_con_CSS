@@ -14,6 +14,7 @@ body {
 
 #base {
     position: absolute;
+    display: flex;
     background-color: #353434 ;
     width: 89%;
     height: 75%;
@@ -41,10 +42,10 @@ body {
     position: absolute;
 }
 
-#botones {
+#botones_A_B {
     position: relative;
-    top: 120px;
-    left: 360px;
+    top: 115px;
+    left: 35px;
 }
 
 .letra {
@@ -67,4 +68,64 @@ body {
     border:1px solid black;
     border-radius: 50%;
     background: tomato;
+}
+
+#parteCentral {
+    margin-left: 32%;
+    width: 180px;
+    /* border: 1px solid red; */
+}
+
+#decoracion_1 {
+    background-color: #9f9ea0  ;
+    border: 1px solid black;
+    border-radius: 0 0 5px 5px;
+    margin-top: -1px;
+    height: 25px;
+}
+
+.decoracion_2_3 {
+    background-color: #9f9ea0  ;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    height: 27px;
+    display: flex;
+    position: relative;
+}
+
+#select {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(143, 66, 52);;
+    font-weight: bold;
+    position: absolute;
+    top: 6px;
+    left: 7%;
+}
+
+#start {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(143, 66, 52);
+    font-weight: bold;
+    position: absolute;
+    top: 6px;
+    left: 65%;
+}
+
+#botones_Select_Start {
+    background-color: #9f9ea0  ;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    height: 47px;
+}
+
+#decoracion_4 {
+    background-color: #9f9ea0  ;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    margin-top: 12px;
+    height: 27px;
 }
