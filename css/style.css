@@ -74,6 +74,12 @@ body {
     border:1px solid black;
     border-radius: 50%;
     background: tomato;
+
+    cursor: pointer;
+}
+
+.circulo:active {
+    background: rgb(168, 67, 49);
 }
 
 #parteCentral {
@@ -148,6 +154,12 @@ body {
     border:1px solid rgb(0, 0, 0);
     border-radius: 100%;
     background: rgb(44, 44, 44);
+
+    cursor: pointer;
+}
+
+.boton1:active {
+    background: black;
 }
 
 .boton2 {
@@ -159,6 +171,12 @@ body {
     border:1px solid rgb(0, 0, 0);
     border-radius: 100%;
     background: rgb(44, 44, 44);
+
+    cursor: pointer;
+}
+
+.boton2:active {
+    background: black;
 }
 
 #decoracion_4 {
@@ -171,7 +189,6 @@ body {
 
 #base_cruceta {
     position: absolute;
-    border: 1px solid green;
     width: 110px;
     height: 100px;
     top: 65px;
@@ -181,9 +198,9 @@ body {
 #borde_cruceta_horizontal {
     /* border: 1px solid black; */
     background-color: gray;
-    width: 45px;
+    width: 40px;
     height: 100px;
-    margin-left: 30px;
+    margin-left: 32px;
 
     position: absolute;
     z-index:0;
@@ -191,7 +208,7 @@ body {
 
 #cruceta_vertical {
     border: 1px solid black;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(24, 24, 24);
     width: 28px;
     height: 90px;
     top:3px;
@@ -199,22 +216,25 @@ body {
 
     z-index: 2;
     position: absolute;
+
+    cursor: pointer;
 }
 
 #borde_cruceta_vertical {
     /* border: 1px 1px 1px 0px solid black; */
     background-color: gray;
-    top: 27px;
+    top: 30px;
     width: 100px;
-    height: 45px;
-    margin-left: 3px;
+    height: 39px;
+    margin-left: 2px;
 
     position:absolute;
+    cursor: pointer;
 }
 
 #cruceta_horizontal {
-    border: 1px solid black;
-    background-color: rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: rgb(24, 24, 24);
     width: 90px;
     height: 28px;
     top: 35px;
@@ -222,6 +242,22 @@ body {
 
     z-index:2;
     position: absolute;
+
+    cursor: pointer;
+}
+
+#decoracionCruceta {
+    position: absolute;
+    top: 33px;
+    left: 36px;
+    width: 30px;
+    height: 30px;
+    /* border:1px solid black; */
+    border-radius: 50%;
+    background: rgb(90, 89, 89);
+    filter: brightness(0.4);
+
+    z-index: 3;
 }
 
 #logo {
